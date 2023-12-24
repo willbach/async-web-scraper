@@ -1,0 +1,14 @@
+[
+    {
+        "process_name": "scraper",
+        "process_wasm_path": "/scraper.wasm",
+        "on_exit": "Restart",
+        "request_networking": true,
+        "request_messaging": [
+            "net:sys:uqbar",
+            "http_client:sys:uqbar"
+        ],
+        "grant_messaging": [],
+        "public": true
+    }
+]
